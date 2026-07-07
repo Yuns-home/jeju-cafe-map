@@ -18,7 +18,7 @@ import plotly.express as px
 # 기본 설정
 # ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="제주 카페 탐방",
+    page_title="i love jeju cafe",
     page_icon="☕",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -157,7 +157,7 @@ df = load_data(DATA_PATH)
 st.markdown(
     f"""
     <div class="hero">
-        <h1>☕ 제주 카페 탐방</h1>
+        <h1>☕ i love jeju cafe</h1>
         <p>제주도 카페 {len(df):,}곳을 지도와 데이터로 살펴보는 탐방 가이드</p>
         <span class="pill">JEJU CAFE MAP · DATA GUIDE</span>
     </div>
@@ -405,6 +405,6 @@ with tab_list:
 
 st.markdown(
     f"<p style='text-align:center;color:#A0937F;margin-top:26px;font-size:0.82rem'>"
-    f"☕ 제주 카페 탐방 · 데이터 기반 카페 가이드 · 총 {len(df):,}곳</p>",
+    f"☕ i love jeju cafe · 데이터 기반 카페 가이드 · 총 {len(df):,}곳</p>",
     unsafe_allow_html=True,
 )
