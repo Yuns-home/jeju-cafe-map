@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 원본 대용량 엑셀 (배포 불필요 — jeju_cafes.parquet 사용)
+제주상권.xlsx
+_stlog.txt
